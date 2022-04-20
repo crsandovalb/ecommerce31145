@@ -16,14 +16,15 @@ const NavBar = () => {
   return (
       <nav className="NavBar" >
         <Link to='/'>
-            <h3>Poke-commerce</h3>
+            <h3>POKEcommerce</h3>
         </Link>
         <div className="Categories">
-                   { categories.map(cat => <NavLink key={cat.id} to={`/category/${cat.id}`}
+          { categories.map(cat => <NavLink key={cat.id} to={`/category/${cat.id}`}
             className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}
           >{cat.description}</NavLink>)}
+          <CartWidget />
         </div>
-        <CartWidget />
+        
       </nav>
   )
 }

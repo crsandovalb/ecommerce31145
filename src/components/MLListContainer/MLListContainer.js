@@ -4,15 +4,6 @@ const MLListContainer = () => {
      const [products, setProducts] = useState([])
      const [input, setInput] =  useState('')
 
-    // useEffect(() => {
-    //     fetch('https://api.mercadolibre.com/sites/MLA/search?q=iphone')
-    //     .then(response => {
-    //         return response.json()
-    //     })
-    //     .then(res => {
-    //         setProducts(res.results)
-    //     })
-    // }, [])
 
     console.log(products)
 

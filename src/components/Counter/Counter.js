@@ -1,34 +1,25 @@
-import { useState } from "react"
-import './Counter.css';
-const Counter = () => {
-    
-    const initial = 1
-    const stock = 50
-    
-    const [count, setCount] = useState(1)
-    
+import { useState } from 'react'
+
+const Counter = ({initial, stock, onAdd}) => {
+    const [count, setCount] = useState(0)
+ 
 
     const decrement = () => {
-        if (count > initial) {
-        setCount(count -1)
-        }
+        setCount(count - 1)
     }
 
     const increment = () => {
-        if (count < stock) {
         setCount(count + 1)
-        }
     }
-    
 
-    return(  
-        <div className="BotonesHorizontal">
-            <button onClick={decrement} className="BotonesGrandes">-</button>
-            <p className="mx-2">{count}</p>
-            <button onClick={increment} className="BotonesGrandes">+</button>
+    return(
+        <div class="d-grid gap-2 d-md-block">
+            <button class="btn btn-dark" type="button"onClick={increment}>+</button>
+            <p>{count}</p>
+            <button class="btn btn-dark" type="button"onClick={decrement}>-</button> 
+            <button class="btn btn-dark" type="button"onClick={() => onAdd(count)}>Agregar al carrito</button>
         </div>
     )
-}
+} 
 
-export default Counter;
-
+export default Counter
