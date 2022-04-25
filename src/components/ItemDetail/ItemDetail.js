@@ -18,6 +18,7 @@ const ItemDetail = ({ id, name, img, category, description, price, stock }) => {
     }
 
     return (
+        
         <div className="col">
         <div className="card">
             <img src={img} className="card-img-top " alt={name} />
@@ -30,7 +31,6 @@ const ItemDetail = ({ id, name, img, category, description, price, stock }) => {
             </div>
         </div>
         </div>
-
     )
 }
 
