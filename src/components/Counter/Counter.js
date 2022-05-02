@@ -16,7 +16,7 @@ const ItemCount = ({stock = 0, initial = 1, onAdd})=> {
    }
 
    if(stock === 0) {
-       return <button className='Option' disabled>No hay stock</button>
+       return <button type="button" className="btn btn-primary" disabled>No hay stock</button>
    }
 
    return(
