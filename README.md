@@ -34,6 +34,6 @@ SweetAlert2
 El stock de los productos, junto con las ordenes de compra se almacenan directamente en la firebase de Google
 
 
-## App en funcionamiento
+### App en funcionamiento
 
  [![Project](https://i.imgur.com/S4VbfBn.gif)](https://github.com/crsandovalb/ecommerce31145)
