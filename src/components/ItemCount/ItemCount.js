@@ -13,7 +13,7 @@ const ItemCount = ({ onAdd, stock, initial, count }) => {
       <div class="mx-auto">
       {count}
       </div>
-      <button class="btn btn-primary" type="button"
+      <button class="btn btn-danger" type="button"
         onClick={() => {
 
           if (count > initial) {

@@ -1,0 +1,11 @@
+.CardCartItem{
+    font-size:2rem;
+}
+
+.ButtonCartItem{
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    border-radius: 5px;
+}
+

@@ -24,12 +24,12 @@ const ItemCount = ({stock = 0, initial = 1, onAdd})=> {
            <table >
                <tbody>
                    <tr>
-                       <td align="left"><button className="btn btn-dark" onClick={decrement}>-</button></td>
+                       <td align="left"><button className="btn btn-danger" onClick={decrement}>-</button></td>
                        <td align="center" style={{fontSize : '20px'}}>{quantity}</td>
-                       <td align="right"><button className="btn btn-dark" onClick={increment}>+</button></td>
+                       <td align="right"><button className="btn btn-danger" onClick={increment}>+</button></td>
                    </tr>
                    <tr>
-                       <td align="center" colSpan="5"><button className="btn btn-dark" onClick={() => onAdd(quantity)}>Agregar al carrito</button></td>
+                       <td align="center" colSpan="5"><button className="btn btn-danger" onClick={() => onAdd(quantity)}>Agregar al carrito</button></td>
                    </tr>
 
                </tbody>

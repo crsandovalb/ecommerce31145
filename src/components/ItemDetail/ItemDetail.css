@@ -11,3 +11,11 @@
     margin-right: auto;
     
 }
+.ItemDetailContainer a{
+    color: #fff !important;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    
+}

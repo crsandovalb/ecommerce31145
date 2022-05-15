@@ -21,9 +21,9 @@ class ClassCounter extends components {
     render() {
         return (
             <div>
-                <button onClick={this.decrement}>-</button>
+                <button type="button" class="btn btn-danger"onClick={this.decrement}>-</button>
                 <p>0</p>
-                <button onClick={this.increment}>+</button>  
+                <button type="button" class="btn btn-danger"onClick={this.increment}>+</button>  
             </div>
         )
     }
