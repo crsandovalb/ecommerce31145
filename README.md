@@ -36,4 +36,4 @@ El stock de los productos, junto con las ordenes de compra se almacenan directam
 
 ### App en funcionamiento
 
- [![Project](https://i.imgur.com/S4VbfBn.gif)](https://github.com/crsandovalb/ecommerce31145)
+ [![Project](https://github.com/crsandovalb/ecommerce31145/blob/main/public/images/Pok-ecommerce.gif)](https://github.com/crsandovalb/ecommerce31145)
